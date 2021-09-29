@@ -1,0 +1,56 @@
+body,html{
+width:100%;
+height: 100%;
+}
+header li{
+    width:2rem;
+    height:2rem;
+    margin: .8rem 0 0 .8rem;
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+main{
+    height: 100%;
+    margin: 1rem;
+}
+
+.manchete h2{
+    font-size: 2rem;
+    color:red
+}
+
+.noticias li{
+    margin: 1rem;
+}
+
+img{
+    border-radius: 10%;
+}
+
+h3{
+    color: red;
+    font-weight: bold;
+    font-size: .8rem;
+    margin: .5rem 0 .5rem 0;
+}
+
+.destaque{
+    font-weight: bold;
+    font-size: .9rem;
+}
